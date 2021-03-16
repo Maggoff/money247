@@ -194,10 +194,18 @@ body {
 	align-items: center;
 }
 
+.add-desc {
+	font-size: 22px;
+	color: #ffffff;
+	text-align: center;
+	width: 60%;
+	margin: 40px auto 0px;
+}
+
 .products {
 	position: relative;
 	z-index: 130;
-	margin-top: 90px;
+	margin-top: 0px;
 }
 
 .card-wrapper {
