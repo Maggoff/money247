@@ -494,6 +494,10 @@ p.sbold {
 	padding: 0px;
 }
 
+p.sbold.marg {
+	padding-bottom: 25px;
+}
+
 .terms-list {
 	font-size: 16px;
 	margin-bottom: 40px;
@@ -514,6 +518,14 @@ p.sbold {
 
 .notification-item a {
 	color: #8d8d8d;
+}
+
+.privacy p a {
+	color: #313131;
+}
+
+.privacy .terms-item {
+	margin-bottom: 0px;
 }
 
 .faq {
@@ -623,6 +635,10 @@ p.sbold {
 .footer .copyright {
 	color: #ffffff;
 	font-size: 16px;
+}
+
+.privacy .terms-text {
+	padding-left: 0px;
 }
 
 @media (max-width: 1400px) {
@@ -898,6 +914,10 @@ p.sbold {
 
 	.footer .copyright {
     font-size: 14px;
+	}
+
+	.privacy {
+		margin-top: 60px;
 	}
 
 }
@@ -1249,6 +1269,14 @@ p.sbold {
 
 	.footer-nav__link:last-of-type {
 		margin-right: 0px;
+	}
+
+	.privacy {
+		padding: 0px;
+	}
+
+	.privacy .title {
+		padding: 0px 20px;
 	}
 
 }
