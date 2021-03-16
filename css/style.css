@@ -67,13 +67,13 @@ body {
 	padding: 0px 40px;
 }
 
-.header .main-logo {
+.main-logo {
 	font-size: 22px;
 	color: #ffffff;
 	display: flex;
 }
 
-.header .main-logo img {
+.main-logo img {
 	height: 28px;
 }
 
@@ -504,6 +504,10 @@ p.sbold {
 	margin-bottom: 30px;
 }
 
+.notification-item a {
+	color: #8d8d8d;
+}
+
 .faq {
 	padding: 58px 0px 55px;
 }
@@ -511,6 +515,7 @@ p.sbold {
 .faq .container {
 	max-width: 1348px;
 	padding: 0px 75px;
+	margin-bottom: 30px;
 }
 
 .faq-wrapper {
@@ -522,6 +527,10 @@ p.sbold {
 	border-bottom: 1px solid #e1dede;
 	padding-bottom: 15px;
 	padding-top: 15px;
+}
+
+.faq-item:last-of-type {
+	border-bottom: none;
 }
 
 .faq-title {
@@ -551,9 +560,58 @@ p.sbold {
 	border-radius: 50%;
 }
 
+.faq-item.uk-open .faq-icon {
+	-webkit-transform: translateY(0%) rotate(-45deg);
+	-ms-transform: translateY(0%) rotate(-45deg);
+	transform: translateY(0%) rotate(-45deg);
+}
+
+.faq-item.uk-open .faq-icon svg path {
+	fill: #ec563b;
+}
+
 .faq-text {
 	font-size: 18px;
 	color: #313131;
 	line-height: 160%;
 	padding: 30px 120px 15px 0px;
+}
+
+.notification {
+	padding-top: 30px;
+}
+
+.footer {
+	background-color: #ec563b;
+	margin-top: 104px;
+	padding: 33px 0px 36px;
+}
+
+.footer .container {
+	max-width: 1564px;
+	width: 100%;
+	margin: 0px auto;
+	display: flex;
+	flex-wrap: wrap;
+	-webkit-box-align: center;
+	-webkit-box-pack: justify;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer-nav {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.footer-nav__link {
+	color: #ffffff;
+	margin: 0px 25px;
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 16px;
+}
+
+.footer .copyright {
+	color: #ffffff;
 }
