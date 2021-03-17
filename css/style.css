@@ -647,6 +647,22 @@ p.sbold.marg {
 	}
 }
 
+@media (max-width: 1350px) {
+	.card {
+    max-width: calc(33% - 1%/3);
+    margin-right: calc(3%/3);
+    margin-bottom: 30px;
+	}
+
+	.card:nth-child(3n), .card:nth-child(6n) {
+    margin-right: 0;
+	}
+
+	.card:nth-child(4n) {
+		margin-right: calc(3%/3);
+	}
+}
+
 @media (max-width: 1100px) {
 	.add-desc {
 		width: 100%;
@@ -701,6 +717,10 @@ p.sbold.marg {
 
 	.card:nth-child(2n), .card:nth-child(4n) {
     margin-right: 0;
+	}
+
+	.card:nth-child(3n), .card:nth-child(6n) {
+    margin-right: 12px;
 	}
 
 	.card:hover {
@@ -929,6 +949,25 @@ p.sbold.marg {
 	}
 }
 
+@media (max-width: 800px) {
+	.products {
+    padding: 0px;
+	}
+
+	.products .container {
+    padding: 0 20px;
+	}
+}
+
+@media (max-width: 680px) {
+	.card {
+    max-width: 100%;
+    margin-bottom: 20px;
+    margin-right: 0;
+    padding: 45px 23px 28px;
+	}
+}
+
 @media (max-width: 640px) {
 	.header {
     padding: 5px 0;
@@ -990,13 +1029,6 @@ p.sbold.marg {
 
 	.card-wrapper {
     margin-top: 25px;
-	}
-
-	.card {
-    max-width: 100%;
-    margin-bottom: 20px;
-    margin-right: 0;
-    padding: 45px 23px 28px;
 	}
 
 	.card-title {
